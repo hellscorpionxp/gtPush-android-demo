@@ -27,10 +27,10 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <!-- 浮动通知权限 -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
-    <uses-permission android:name="getui.permission.GetuiService.您的包名"/>
+    <uses-permission android:name="getui.permission.GetuiService.com.example"/>
 
     <permission
-        android:name="getui.permission.GetuiService.您的包名"
+        android:name="getui.permission.GetuiService.com.example"
         android:protectionLevel="normal"/>
 
     <application
@@ -53,13 +53,13 @@
 
         <meta-data
             android:name="PUSH_APPID"
-            android:value="您的APPID"/>
+            android:value="3YfwmgOH4z7nVDI877czY2"/>
         <meta-data
             android:name="PUSH_APPKEY"
-            android:value="您的APPKEY"/>
+            android:value="IMUK36A0NQ6DUq15DhqjI2"/>
         <meta-data
             android:name="PUSH_APPSECRET"
-            android:value="您的APPSECRET"/>
+            android:value="jfjVTE3nZM8KCfL8Jx0t63"/>
 
         <!-- 配置SDK核心服务 -->
         <service
